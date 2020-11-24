@@ -1,0 +1,965 @@
+/* font embedding */
+@font-face {
+  font-family: "SpaceGrotesk";
+  src: url("fonts/SpaceGrotesk-Regular.woff") format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SpaceGrotesk";
+  src: url("fonts/SpaceGrotesk-Light.woff") format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SpaceGrotesk";
+  src: url("fonts/SpaceGrotesk-SemiBold.woff") format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SpaceGrotesk";
+  src: url("fonts/SpaceGrotesk-Bold.woff") format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Pilowlava";
+  src: url("fonts/Pilowlava-Regular.woff") format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Space Mono";
+  src: url("fonts/SpaceMono-Regular.woff") format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Space Mono";
+  src: url("fonts/SpaceMono-Italic.woff") format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Space Mono";
+  src: url("fonts/SpaceMono-Bold.woff") format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Space Mono";
+  src: url("fonts/SpaceMono-BoldIltalic.woff") format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* general */
+body {
+  background-color: #F9F8F4;
+  font-family: SpaceGrotesk;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.025em;
+  margin: 30px 230px 0 230px;
+}
+
+hr {
+  border-bottom: 2px solid black;
+  height: 1px solid #F9F8F4;
+  margin-bottom: 60px;
+  /* opacity: 10%; */
+}
+
+h2 {
+  font-family: Space Mono;
+  font-size: 60px;
+  line-height: 166%;
+  margin: 70px 0 70px 0;
+}
+
+h3 {
+  font-family: Space Mono;
+  font-size: 30px;
+  line-height: 133%;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+.carousel-control-prev {
+  padding-right: 100px;
+}
+
+.carousel-control-next {
+  padding-left: 100px;
+}
+
+.fa-chevron-left {
+  color: #000000;
+}
+
+.fa-chevron-right {
+  color: #000000;
+}
+
+.highlighted-text {
+  font-weight: 700;
+}
+
+.mob-view {
+  display: none;
+}
+
+.img-with-margin {
+  max-width: 100%;
+  margin-bottom: 40px;
+}
+
+.img-no-margin {
+  max-width: 100%;
+}
+
+.pp-validated-img {
+  margin-bottom: 30px;
+}
+
+/* project classes */
+.project-heading {
+  font-family: Space Mono, monospace;
+  font-size: 85px;
+  line-height: 110%;
+  letter-spacing: 0.02em;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.project-duration {
+  font-family: Space Mono;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: right;
+  position: relative;
+  top: 135px;
+}
+
+.project-block {
+  margin-bottom: 40px;
+}
+
+.project-slogan {
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: normal;
+  margin-bottom: 30px;
+  padding-right: 100px;
+}
+
+.project-description {
+  font-feature-settings: 'liga'off;
+  padding-right: 100px;
+}
+
+.project-info {
+  line-height: 120%;
+}
+
+.project-info-block {
+  margin-bottom: 24px;
+}
+
+.project-info-heading {
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: normal;
+  color: #FF8A00;
+}
+
+/* carousel */
+.carousel {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.persona-slide {
+  max-width: 87%;
+}
+
+/* navbar */
+.navbar-brand {
+  font-family: Pilowlava;
+  font-size: 38px;
+  line-height: 46px;
+  margin-bottom: 25px;
+}
+
+.nav-item {
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 17px;
+  margin-left: 90px;
+}
+
+.navbar {
+  padding: 0;
+  border-bottom: 2px solid black;
+  margin-bottom: 55px;
+  background-color: #F9F8F4;
+}
+
+.navbar-home {
+  margin-bottom: 80px;
+}
+
+.introduction {
+  font-family: SpaceGrotesk;
+  font-size: 38px;
+  line-height: 158%;
+  letter-spacing: 0.025em;
+  margin-bottom: 80px;
+}
+
+.project-info-home {
+  padding-right: 60px;
+}
+
+.project-type-home {
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 166%;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.project-name-home {
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 38px;
+  line-height: 124%;
+  margin-bottom: 60px;
+}
+
+.project-link-home {
+  font-family: SpaceGrotesk;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0.015rem;
+  margin-bottom: 60px;
+}
+
+.project-description-home {
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.025em;
+}
+
+.project-img-home {
+  height: auto;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  font-family: Space Mono;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+  margin: 15px 0 5px 0;
+  display: grid;
+}
+
+.marquee-hr {
+  margin-bottom: 10px;
+}
+
+.logo {
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.logo-description {
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0.02em;
+}
+
+.logo-day {
+  color: #737373;
+}
+
+
+
+
+/* media queries */
+
+/* for mobile screens */
+@media (min-width: 280px) and (max-width: 576px) {
+  body {
+    font-size: 14px;
+    line-height: 171%;
+    margin: 20px 20px 0 20px;
+  }
+
+  hr {
+    border-bottom: 2px solid black;
+    height: 1px solid #F9F8F4;
+    margin-bottom: 40px;
+  }
+
+  h2 {
+    font-size: 36px;
+    line-height: 142%;
+    margin: 50px 0 50px 0;
+  }
+
+  h3 {
+    font-size: 24px;
+    line-height: 142%;
+    margin-bottom: 20px;
+  }
+
+  .img-with-margin {
+    margin-bottom: 40px;
+  }
+
+  .project-heading {
+    font-size: 42px;
+    line-height: 119%;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .project-duration {
+    font-size: 20px;
+    line-height: 150%;
+    text-align: left;
+    position: relative;
+    top: 15px;
+    margin-bottom: 40px;
+  }
+
+  .project-block {
+    margin-bottom: 30px;
+  }
+
+  .project-slogan {
+    font-size: 24px;
+    line-height: 142%;
+    margin-bottom: 20px;
+    padding-right: 0;
+  }
+
+  .project-description {
+    font-feature-settings: 'liga'off;
+    padding-right: 0px;
+    margin-bottom: 40px;
+  }
+
+  .project-info-block {
+    margin-bottom: 15px;
+  }
+
+  .desktop-view {
+    display: none;
+  }
+
+  .mob-view {
+    display: block;
+  }
+
+  .navbar {
+    margin-bottom: 40px;
+  }
+
+  .navbar-brand {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 13px;
+  }
+
+  .hamburger-menu {
+    border: none;
+    /* display: contents; */
+  }
+
+  .navbar-toggler {
+    border: 0;
+    color: black;
+  }
+
+  .introduction {
+    font-size: 20px;
+    line-height: 175%;
+    letter-spacing: -0.01em;
+    margin-bottom: 40px;
+  }
+
+  .project-info-home {
+    padding-right: 20px;
+  }
+
+  .project-type-home {
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 166%;
+    margin-bottom: 20px;
+    margin-top: 0px;
+  }
+
+  .project-name-home {
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 145%;
+    margin-bottom: 20px;
+  }
+
+  .project-link-home {
+    font-family: SpaceGrotesk;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 187%;
+    letter-spacing: 0.015rem;
+    margin-bottom: 20px;
+  }
+
+  .project-description-home {
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.025em;
+    margin-bottom: 25px;
+  }
+
+  .project-img-home {
+    height: auto;
+    width: 100%;
+    border-radius: 3px;
+  }
+
+  .marquee {
+    width: 100%;
+    overflow: hidden;
+    font-family: Space Mono;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    margin: 0;
+    display: block;
+  }
+
+  .marquee-hr {
+    margin-bottom: 7px;
+  }
+
+}
+
+
+
+/* for tablets part 1*/
+@media (min-width: 576px) and (max-width: 769px) {
+  body {
+    font-size: 16px;
+    line-height: 169%;
+    letter-spacing: 0.025em;
+    margin: 30px 40px 0 40px;
+  }
+
+  hr {
+    border-bottom: 2px solid black;
+    height: 1px solid #F9F8F4;
+    margin-bottom: 40px;
+  }
+
+  h2 {
+    font-size: 60px;
+    line-height: 142%;
+    margin: 60px 0 60px 0;
+  }
+
+  h3 {
+    font-size: 26px;
+    line-height: 146%;
+    margin-bottom: 20px;
+  }
+
+  .img-with-margin {
+    margin-bottom: 40px;
+  }
+
+  .project-heading {
+    font-size: 70px;
+    line-height: 120%;
+    margin-bottom: 20px;
+  }
+
+  .project-duration {
+    font-size: 28px;
+    line-height: 150%;
+    text-align: left;
+    position: relative;
+    top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .project-block {
+    margin-bottom: 30px;
+  }
+
+  .project-slogan {
+    font-size: 26px;
+    line-height: 146%;
+    margin-bottom: 20px;
+    padding-right: 30px;
+  }
+
+  .project-description {
+    font-feature-settings: 'liga'off;
+    padding-right: 0px;
+    margin-bottom: 30px;
+  }
+
+  .project-info-block {
+    margin-bottom: 20px;
+  }
+
+  .pp-validated-img {
+    margin-bottom: 18.58px;
+  }
+
+  .navbar-brand {
+    font-size: 28px;
+    line-height: 34px;
+    margin-bottom: 20px;
+  }
+
+  .navbar-toggler {
+    border: 0;
+    color: black;
+  }
+
+  .project-info-home {
+    padding-right: 20px;
+  }
+
+  .project-type-home {
+    font-size: 14px;
+    line-height: 166%;
+    margin-bottom: 30px;
+    /* margin-top: 20px; */
+  }
+
+  .project-name-home {
+    font-size: 26px;
+    line-height: 146%;
+    margin-bottom: 40px;
+  }
+
+  .project-link-home {
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.015rem;
+    margin-bottom: 40px;
+  }
+
+  .project-description-home {
+    font-size: 16px;
+    line-height: 169%;
+  }
+
+  .project-img-home {
+    height: auto;
+    width: 100%;
+    border-radius: 3px;
+  }
+
+
+}
+
+
+/* for tablets part 2 */
+@media (min-width: 769px) and (max-width: 1025px) {
+  body {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 169%;
+    margin: 30px 40px 0 40px;
+  }
+
+  hr {
+    border-bottom: 2px solid black;
+    height: 1px solid #F9F8F4;
+    margin-bottom: 40px;
+  }
+
+  h2 {
+    font-size: 60px;
+    line-height: 142%;
+    margin: 60px 0 60px 0;
+  }
+
+  h3 {
+    font-size: 26px;
+    line-height: 146%;
+    margin-bottom: 20px;
+  }
+
+  .img-with-margin {
+    margin-bottom: 40px;
+  }
+
+  .project-heading {
+    font-size: 70px;
+    line-height: 120%;
+    margin-bottom: 20px;
+  }
+
+  .project-duration {
+    font-size: 28px;
+    line-height: 150%;
+    text-align: right;
+    position: relative;
+    top: 120px;
+    margin-bottom: 40px;
+  }
+
+  .project-block {
+    margin-bottom: 30px;
+  }
+
+  .project-slogan {
+    font-size: 26px;
+    line-height: 146%;
+    margin-bottom: 20px;
+    padding-right: 30px;
+  }
+
+  .project-description {
+    font-feature-settings: 'liga'off;
+    padding-right: 0px;
+    margin-bottom: 30px;
+  }
+
+  .project-info-block {
+    margin-bottom: 20px;
+  }
+
+  .pp-validated-img {
+    margin-bottom: 18.58px;
+  }
+
+  .mob-view {
+    display: none;
+  }
+
+  .navbar-brand {
+    font-family: Pilowlava;
+    font-size: 28px;
+    line-height: 34px;
+    margin-bottom: 20px;
+  }
+
+  .navbar-toggler {
+    border: 0;
+    color: black;
+  }
+
+  .project-info-home {
+    padding-right: 20px;
+  }
+
+  .project-type-home {
+    font-size: 14px;
+    line-height: 166%;
+    margin-bottom: 30px;
+    /* margin-top: 20px; */
+  }
+
+  .project-name-home {
+    font-size: 26px;
+    line-height: 146%;
+    margin-bottom: 40px;
+  }
+
+  .project-link-home {
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.015rem;
+    margin-bottom: 40px;
+  }
+
+  .project-description-home {
+    font-size: 16px;
+    line-height: 169%;
+  }
+
+  .project-img-home {
+    height: auto;
+    width: 100%;
+    border-radius: 3px;
+  }
+}
+
+
+
+/* for small laptops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  body {
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0.025em;
+    margin: 30px 100px 0 100px;
+  }
+
+  hr {
+    border-bottom: 2px solid black;
+    height: 1px solid #F9F8F4;
+    margin-bottom: 60px;
+  }
+
+  h2 {
+    font-family: Space Mono;
+    font-size: 60px;
+    line-height: 166%;
+    margin: 70px 0 70px 0;
+  }
+
+  h3 {
+    font-family: Space Mono;
+    font-size: 30px;
+    line-height: 133%;
+  }
+
+  li {
+    margin-bottom: 15px;
+  }
+
+  .highlighted-text {
+    font-weight: 700;
+  }
+
+  .mob-view {
+    display: none;
+  }
+
+  .img-with-margin {
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .img-no-margin {
+    max-width: 100%;
+  }
+
+  .pp-validated-img {
+    margin-bottom: 30px;
+  }
+
+  /* project classes */
+  .project-heading {
+    font-family: Space Mono, monospace;
+    font-size: 85px;
+    line-height: 110%;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-bottom: 40px;
+  }
+
+  .project-duration {
+    font-family: Space Mono;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: right;
+    position: relative;
+    top: 135px;
+  }
+
+  .project-block {
+    margin-bottom: 40px;
+  }
+
+  .project-slogan {
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 30px;
+    padding-right: 60px;
+  }
+
+  .project-description {
+    font-feature-settings: 'liga'off;
+    padding-right: 60px;
+  }
+
+  .project-info {
+    line-height: 120%;
+  }
+
+  .project-info-block {
+    margin-bottom: 24px;
+  }
+
+  .project-info-heading {
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    color: #FF8A00;
+  }
+
+  /* carousel */
+  .carousel {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  /* navbar */
+  .navbar-brand {
+    font-family: Pilowlava;
+    font-size: 38px;
+    line-height: 46px;
+    margin-bottom: 25px;
+  }
+
+  .nav-item {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 17px;
+    margin-left: 90px;
+  }
+
+  .navbar {
+    padding: 0;
+    border-bottom: 2px solid black;
+    margin-bottom: 55px;
+    background-color: #F9F8F4;
+  }
+
+
+
+/* for large laptops */
+@media (min-width: 1280px) and (max-width: 1600px) {
+  body {
+    font-size: 18px;
+    line-height: 160%;
+    margin: 30px 230px 0 230px;
+  }
+
+  hr {
+    border-bottom: 2px solid black;
+    height: 1px solid #F9F8F4;
+    margin-bottom: 60px;
+  }
+
+  h2 {
+    font-size: 60px;
+    line-height: 166%;
+    margin: 70px 0 70px 0;
+  }
+
+  h3 {
+    font-size: 30px;
+    line-height: 133%;
+  }
+
+  li {
+    margin-bottom: 15px;
+  }
+
+  .mob-view {
+    display: none;
+  }
+
+  .img-with-margin {
+    margin-bottom: 40px;
+  }
+
+  .pp-validated-img {
+    margin-bottom: 30px;
+  }
+
+  /* project classes */
+  .project-heading {
+    font-size: 85px;
+    line-height: 110%;
+    margin-bottom: 40px;
+  }
+
+  .project-duration {
+    font-size: 36px;
+    line-height: 53px;
+    text-align: right;
+    position: relative;
+    top: 135px;
+  }
+
+  .project-block {
+    margin-bottom: 40px;
+  }
+
+  .project-slogan {
+    margin-bottom: 30px;
+    padding-right: 100px;
+  }
+
+  .project-description {
+    font-feature-settings: 'liga'off;
+    padding-right: 100px;
+  }
+
+  .project-info {
+    line-height: 120%;
+  }
+
+  .project-info-block {
+    margin-bottom: 24px;
+  }
+
+  .carousel {
+    margin-bottom: 40px;
+  }
+
+  .navbar-brand {
+    font-size: 38px;
+    line-height: 46px;
+    margin-bottom: 25px;
+  }
+
+  .nav-item {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 17px;
+    margin-left: 90px;
+  }
+
+}
+
+@media (min-width: 1600px) {
+  body {
+    font-size: 18px;
+    line-height: 160%;
+    margin: 30px 400px 0 400px;
+  }
+}
