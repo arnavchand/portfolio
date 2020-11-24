@@ -45,21 +45,21 @@
   font-family: "Space Mono";
   src: url("fonts/SpaceMono-Italic.woff") format('woff');
   font-weight: 400;
-  font-style: normal;
+  font-style: italic;
 }
 
 @font-face {
   font-family: "Space Mono";
   src: url("fonts/SpaceMono-Bold.woff") format('woff');
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Space Mono";
   src: url("fonts/SpaceMono-BoldIltalic.woff") format('woff');
-  font-weight: 400;
-  font-style: normal;
+  font-weight: 600;
+  font-style: italic;
 }
 
 /* general */
@@ -71,6 +71,7 @@ body {
   line-height: 150%;
   letter-spacing: 0.025em;
   margin: 30px 230px 0 230px;
+  color: black;
 }
 
 hr {
@@ -115,6 +116,48 @@ li {
 
 .highlighted-text {
   font-weight: 700;
+}
+
+.contact-me {
+  font-family: Space Mono;
+  font-size: 30px;
+  line-height: 158%;
+  text-align: center;
+  padding: 30px 70px;
+  margin-bottom: 50px;
+}
+
+.prev-project-link {
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: black;
+  text-align: left;
+  margin: 100px 0;
+}
+
+.home-link {
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: black;
+  text-align: center;
+  margin: 100px 0;
+}
+
+.next-project-link {
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: black;
+  text-align: right;
+  margin: 100px 0;
 }
 
 .mob-view {
