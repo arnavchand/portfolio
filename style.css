@@ -1,31 +1,31 @@
 /* font embedding */
-@font-face {
-  font-family: "SpaceGrotesk";
-  src: url("fonts/SpaceGrotesk-Regular.woff") format('woff');
+/* @font-face {
+  font-family: "Work Sans";
+  src: url("fonts/Work Sans-Regular.woff") format('woff');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "SpaceGrotesk";
-  src: url("fonts/SpaceGrotesk-Light.woff") format('woff');
+  font-family: "Work Sans";
+  src: url("fonts/Work Sans-Light.woff") format('woff');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "SpaceGrotesk";
-  src: url("fonts/SpaceGrotesk-SemiBold.woff") format('woff');
+  font-family: "Work Sans";
+  src: url("fonts/Work Sans-SemiBold.woff") format('woff');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "SpaceGrotesk";
-  src: url("fonts/SpaceGrotesk-Bold.woff") format('woff');
+  font-family: "Work Sans";
+  src: url("fonts/Work Sans-Bold.woff") format('woff');
   font-weight: 700;
   font-style: normal;
-}
+} */
 
 @font-face {
   font-family: "Pilowlava";
@@ -65,18 +65,26 @@
 /* general */
 body {
   background-color: #F9F8F4;
-  font-family: SpaceGrotesk;
+  font-family: Work Sans;
   font-weight: 400;
   font-size: 18px;
-  line-height: 150%;
+  line-height: 170%;
   letter-spacing: 0.025em;
-  margin: 30px 230px 0 230px;
+  /* margin: 30px 200px 0 200px; */
   color: black;
+}
+
+.container {
+  /* margin: 30px 200px 0 200px; */
+  margin-top: 30px;
+  width: 1140px;
+  padding: 0;
 }
 
 hr {
   border-bottom: 2px solid black;
-  height: 1px solid #F9F8F4;
+  /* opacity: 20%; */
+  height: 0.1px solid #F9F8F4;
   margin-bottom: 60px;
   /* opacity: 10%; */
 }
@@ -94,16 +102,38 @@ h3 {
   line-height: 133%;
 }
 
+h4 {
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 133%;
+  margin-bottom: 16px;
+}
+
+.icon {
+  margin-bottom: 20px;
+}
+
+.icon-description {
+  opacity: 70%;
+  font-size: 16px;
+}
+
+ul {
+  padding-left: 17px;
+}
+
 li {
   margin-bottom: 15px;
 }
 
 .carousel-control-prev {
-  padding-right: 100px;
+  padding-right: 120px;
 }
 
 .carousel-control-next {
-  padding-left: 100px;
+  padding-left: 120px;
 }
 
 .fa-chevron-left {
@@ -132,7 +162,7 @@ li {
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
-  line-height: 36px;
+  line-height: 150%;
   color: black;
   text-align: left;
   margin: 100px 0;
@@ -143,7 +173,7 @@ li {
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
-  line-height: 36px;
+  line-height: 150%;
   color: black;
   text-align: center;
   margin: 100px 0;
@@ -161,6 +191,10 @@ li {
 }
 
 .mob-view {
+  display: none;
+}
+
+.tab-view {
   display: none;
 }
 
@@ -197,7 +231,7 @@ li {
 }
 
 .project-block {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 .project-slogan {
@@ -235,7 +269,7 @@ li {
 }
 
 .persona-slide {
-  max-width: 87%;
+  max-width: 80%;
 }
 
 /* navbar */
@@ -265,7 +299,7 @@ li {
 }
 
 .introduction {
-  font-family: SpaceGrotesk;
+  font-family: Space Mono;
   font-size: 38px;
   line-height: 158%;
   letter-spacing: 0.025em;
@@ -273,7 +307,7 @@ li {
 }
 
 .project-info-home {
-  padding-right: 60px;
+  padding-right: 80px;
 }
 
 .project-type-home {
@@ -290,16 +324,14 @@ li {
   font-family: Space Mono;
   font-style: normal;
   font-weight: normal;
-  font-size: 38px;
+  font-size: 42px;
   line-height: 124%;
   margin-bottom: 60px;
 }
 
 .project-link-home {
-  font-family: SpaceGrotesk;
-  font-style: normal;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 150%;
   letter-spacing: 0.015rem;
   margin-bottom: 60px;
@@ -359,14 +391,18 @@ li {
 @media (min-width: 280px) and (max-width: 576px) {
   body {
     font-size: 14px;
-    line-height: 171%;
     margin: 20px 20px 0 20px;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0;
   }
 
   hr {
     border-bottom: 2px solid black;
     height: 1px solid #F9F8F4;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
 
   h2 {
@@ -381,8 +417,24 @@ li {
     margin-bottom: 20px;
   }
 
+  h4 {
+    font-size: 20px;
+    line-height: 150%;
+    margin-bottom: 5px;
+  }
+
+  .icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .icon-description {
+    font-size: 12px;
+    opacity: 70%;
+  }
+
   .img-with-margin {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
 
   .project-heading {
@@ -481,8 +533,6 @@ li {
   }
 
   .project-link-home {
-    font-family: SpaceGrotesk;
-    font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 187%;
@@ -531,10 +581,15 @@ li {
     margin: 30px 40px 0 40px;
   }
 
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+
   hr {
     border-bottom: 2px solid black;
     height: 1px solid #F9F8F4;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
 
   h2 {
@@ -549,8 +604,24 @@ li {
     margin-bottom: 20px;
   }
 
+  h4 {
+    font-size: 20px;
+    line-height: 150%;
+    margin-bottom: 10px;
+  }
+
+  .icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .icon-description {
+    font-size: 14px;
+    opacity: 70%;
+  }
+
   .img-with-margin {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
 
   .project-heading {
@@ -593,6 +664,10 @@ li {
     margin-bottom: 18.58px;
   }
 
+  .navbar {
+    margin-bottom: 55px;
+  }
+
   .navbar-brand {
     font-size: 28px;
     line-height: 34px;
@@ -604,21 +679,37 @@ li {
     color: black;
   }
 
+  .introduction {
+    font-size: 30px;
+    line-height: 153%;
+    margin-bottom: 55px;
+  }
+
+  .marquee {
+    font-size: 12px;
+    line-height: 18px;
+    margin: 10px 0 2px 0;
+  }
+
+  .marquee-hr {
+    margin-bottom: 10px;
+  }
+
   .project-info-home {
-    padding-right: 20px;
+    padding-right: 5px;
   }
 
   .project-type-home {
     font-size: 14px;
     line-height: 166%;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     /* margin-top: 20px; */
   }
 
   .project-name-home {
     font-size: 26px;
     line-height: 146%;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
   }
 
   .project-link-home {
@@ -629,8 +720,8 @@ li {
   }
 
   .project-description-home {
-    font-size: 16px;
-    line-height: 169%;
+    font-size: 14px;
+    line-height: 169s%;
   }
 
   .project-img-home {
@@ -652,10 +743,15 @@ li {
     margin: 30px 40px 0 40px;
   }
 
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+
   hr {
     border-bottom: 2px solid black;
     height: 1px solid #F9F8F4;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
 
   h2 {
@@ -670,8 +766,19 @@ li {
     margin-bottom: 20px;
   }
 
+  h4 {
+    font-size: 20px;
+    line-height: 150%;
+    margin-bottom: 10px;
+  }
+
+  .icon-description {
+    font-size: 14px;
+    opacity: 70%;
+  }
+
   .img-with-margin {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
 
   .project-heading {
@@ -690,7 +797,7 @@ li {
   }
 
   .project-block {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
 
   .project-slogan {
@@ -769,12 +876,18 @@ li {
 
 
 /* for small laptops */
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 1025px) and (max-width: 1281px) {
   body {
     font-size: 18px;
-    line-height: 160%;
+    line-height: 170%;
     letter-spacing: 0.025em;
-    margin: 30px 100px 0 100px;
+    /* margin: 30px 70px 0 70px; */
+  }
+
+  .container {
+    width: 1024px;
+    margin-top: 30px;
+    padding: 0;
   }
 
   hr {
@@ -794,6 +907,17 @@ li {
     font-family: Space Mono;
     font-size: 30px;
     line-height: 133%;
+  }
+
+  h4 {
+    font-size: 24px;
+    line-height: 133%;
+    margin-bottom: 16px;
+  }
+
+  .icon-description {
+    font-size: 16px;
+    opacity: 70%;
   }
 
   li {
@@ -841,7 +965,7 @@ li {
   }
 
   .project-block {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
   }
 
   .project-slogan {
@@ -903,17 +1027,23 @@ li {
 
 
 /* for large laptops */
-@media (min-width: 1280px) and (max-width: 1600px) {
+@media (min-width: 1281px) {
   body {
     font-size: 18px;
-    line-height: 160%;
-    margin: 30px 230px 0 230px;
+    line-height: 170%;
+    /* margin: 30px 200px 0 200px; */
+  }
+
+  .container {
+    width: 1140px;
+    margin-top: 30px;
+    padding: 0;
   }
 
   hr {
     border-bottom: 2px solid black;
     height: 1px solid #F9F8F4;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
   }
 
   h2 {
@@ -925,6 +1055,17 @@ li {
   h3 {
     font-size: 30px;
     line-height: 133%;
+  }
+
+  h4 {
+    font-size: 24px;
+    line-height: 133%;
+    margin-bottom: 16px;
+  }
+
+  .icon-description {
+    font-size: 16px;
+    opacity: 70%;
   }
 
   li {
@@ -959,7 +1100,7 @@ li {
   }
 
   .project-block {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
   }
 
   .project-slogan {
@@ -997,12 +1138,4 @@ li {
     margin-left: 90px;
   }
 
-}
-
-@media (min-width: 1600px) {
-  body {
-    font-size: 18px;
-    line-height: 160%;
-    margin: 30px 400px 0 400px;
-  }
 }
