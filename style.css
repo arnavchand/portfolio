@@ -39,9 +39,10 @@ body {
   background-color: #F9F8F4;
   font-family: Work Sans;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.125rem;
+  /*18px*/
   line-height: 170%;
-  letter-spacing: 0.025em;
+  letter-spacing: 0.025rem;
   color: black;
 }
 
@@ -53,20 +54,23 @@ hr {
 
 h2 {
   font-family: Space Mono;
-  font-size: 60px;
+  font-size: 3.75rem;
+  /*60px*/
   line-height: 166%;
   margin: 70px 0 70px 0;
 }
 
 h3 {
-  font-family: Space Mono;
-  font-size: 30px;
+  font-family: Space Mono, monospace;
+  font-size: 1.875rem;
+  /*30px*/
   line-height: 133%;
 }
 
 h4 {
   font-family: Space Mono;
-  font-size: 24px;
+  font-size: 1.5rem;
+  /*24px*/
   line-height: 133%;
   margin-bottom: 16px;
 }
@@ -104,9 +108,10 @@ li {
 
 .main-heading {
   font-family: "Space Mono";
-  font-size: 90px;
+  font-size: 5.625rem;
+  /*90px*/
   line-height: 111%;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.02rem;
   margin-top: 50px;
   margin-bottom: 40px;
   width: 80%;
@@ -120,117 +125,27 @@ li {
   margin-bottom: 50px;
 }
 
-
-
-
-
-.icon {
-  margin-bottom: 20px;
+.peeping-img {
+  position: relative;
+  top: 27px;
 }
 
-.icon-description {
-  opacity: 70%;
-  font-size: 16px;
-}
-
-
-
-.carousel-control-prev {
-  padding-right: 120px;
-}
-
-.carousel-control-next {
-  padding-left: 120px;
-}
-
-.fa-chevron-left {
-  color: #000000;
-}
-
-.fa-chevron-right {
-  color: #000000;
-}
-
-.highlighted-text {
-  font-weight: 700;
-}
-
-.contact-me {
-  font-family: Space Mono;
-  font-size: 30px;
-  line-height: 158%;
-  text-align: center;
-  padding: 30px 70px;
-  margin-bottom: 50px;
-}
-
-.prev-project-link {
-  font-family: Space Mono;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 150%;
-  color: black;
-  text-align: left;
-  margin: 100px 0;
-}
-
-.home-link {
-  font-family: Space Mono;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 150%;
-  color: black;
-  text-align: center;
-  margin: 100px 0;
-}
-
-.next-project-link {
-  font-family: Space Mono;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 36px;
-  color: black;
-  text-align: right;
-  margin: 100px 0;
-}
-
-.mob-view {
-  display: none;
-}
-
-.tab-view {
-  display: none;
-}
-
-.img-with-margin {
-  max-width: 100%;
-  margin-bottom: 40px;
-}
-
-.img-no-margin {
-  max-width: 100%;
-}
-
-.pp-validated-img {
-  margin-bottom: 30px;
-}
-
-/* project classes */
+/* FOR PROJECTS */
+/*top part*/
 .project-heading {
   font-family: Space Mono, monospace;
-  font-size: 85px;
+  font-size: 5.3125rem;
+  /*85px*/
   line-height: 110%;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.02rem;
   text-align: left;
   margin-bottom: 40px;
 }
 
 .project-duration {
-  font-family: Space Mono;
-  font-size: 36px;
+  font-family: Space Mono, monospace;
+  font-size: 2.25rem;
+  /*36px*/
   line-height: 53px;
   text-align: right;
   position: relative;
@@ -242,7 +157,7 @@ li {
 }
 
 .project-slogan {
-  font-family: Space Mono;
+  font-family: Space Mono, monospace;
   font-style: normal;
   font-weight: normal;
   margin-bottom: 30px;
@@ -250,7 +165,6 @@ li {
 }
 
 .project-description {
-  font-feature-settings: 'liga'off;
   padding-right: 100px;
 }
 
@@ -269,6 +183,79 @@ li {
   color: #FF8A00;
 }
 
+/* images */
+.img-with-margin {
+  max-width: 100%;
+  margin-bottom: 40px;
+}
+
+.img-no-margin {
+  max-width: 100%;
+}
+
+.pp-validated-img {
+  margin-bottom: 30px;
+}
+
+.icon {
+  margin-bottom: 20px;
+}
+
+.icon-description {
+  opacity: 70%;
+  font-size: 16px;
+}
+
+.highlighted-text {
+  font-weight: 700;
+}
+
+.contact-me {
+  font-family: Space Mono;
+  font-size: 1.875rem;
+  /*30px*/
+  line-height: 158%;
+  text-align: center;
+  padding: 30px 70px;
+  margin-bottom: 50px;
+}
+
+.prev-project-link {
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  /*24px*/
+  line-height: 150%;
+  color: black;
+  text-align: left;
+  margin: 100px 0;
+}
+
+.home-link {
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  /*24px*/
+  line-height: 150%;
+  color: black;
+  text-align: center;
+  margin: 100px 0;
+}
+
+.next-project-link {
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  /*24px*/
+  line-height: 36px;
+  color: black;
+  text-align: right;
+  margin: 100px 0;
+}
+
 /* carousel */
 .carousel {
   text-align: center;
@@ -279,7 +266,30 @@ li {
   max-width: 80%;
 }
 
-/* navbar */
+.carousel-control-prev {
+  padding-right: 120px;
+}
+
+.carousel-control-next {
+  padding-left: 120px;
+}
+
+.fa-chevron-left {
+  color: #000000;
+}
+
+.fa-chevron-right {
+  color: #000000;
+}
+
+    /*for navbar */
+.navbar {
+  padding: 20px 0 0 0;
+  border-bottom: 2px solid black;
+  margin-bottom: 55px;
+  background-color: #F9F8F4;
+}
+
 .navbar-brand {
   font-family: Pilowlava;
   font-size: 38px;
@@ -294,23 +304,18 @@ li {
   margin-left: 90px;
 }
 
-.navbar {
-  padding: 20px 0 0 0;
-  border-bottom: 2px solid black;
-  margin-bottom: 55px;
-  background-color: #F9F8F4;
-}
-
+    /* for homepage */
 .navbar-home {
   margin-bottom: 80px;
+  background-color: #FCCC42;
 }
 
 .introduction {
-  font-family: Space Mono;
-  font-size: 38px;
-  line-height: 158%;
-  letter-spacing: 0.025em;
-  margin-bottom: 80px;
+  font-size: 24px;
+  line-height: 175%;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto 0 auto;
 }
 
 .project-info-home {
@@ -350,7 +355,7 @@ li {
   font-weight: 500;
   padding-left: 30px;
   padding-right: 30px;
-  border-radius: 100px ;
+  border-radius: 100px;
   border: 2px solid #000000;
   background-color: #f9f8f4;
 }
@@ -377,6 +382,7 @@ li {
   margin-bottom: 10px;
 }
 
+    /* for logo page */
 .logo {
   margin-bottom: 20px;
   width: 100%;
@@ -393,41 +399,45 @@ li {
   color: #737373;
 }
 
+/*_________________________________________________________*/
+/* MEDIA QUERIES */
 
 
-
-/* media queries */
-
-/* for mobile screens */
+/* FOR MOBILES */
 @media (min-width: 280px) and (max-width: 576px) {
-
   .main-heading {
-    font-size: 34px;
+    font-size: 2.125rem;
+    /* 34px */
     line-height: 129%;
-    margin-top: 180px;
+    margin-top: 120px;
     margin-bottom: 20px;
-    width: 80%;
+    width: 100%;
   }
 
   .sub-text {
-    font-size: 16px;
+    font-size: 1rem;
+    /* 16px */
     line-height: 20px;
   }
 
+  .peeping-img {
+    position: relative;
+    width: 70%;
+    top: 113px;
+  }
 
   body {
     font-size: 14px;
-    margin: 20px 20px 0 20px;
+    /* margin: 20px 20px 0 20px; */
   }
 
   .container {
-    width: 100%;
-    padding: 0;
+    width: 100vw;
+    padding: 5px 20px 0 20px;
+    /* padding: 0; */
   }
 
   hr {
-    border-bottom: 2px solid black;
-    height: 1px solid #F9F8F4;
     margin-bottom: 30px;
   }
 
@@ -530,10 +540,11 @@ li {
   }
 
   .introduction {
-    font-size: 20px;
-    line-height: 175%;
-    letter-spacing: -0.01em;
-    margin-bottom: 40px;
+    font-size: 14px;
+    line-height: 186%;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto 0 auto;
   }
 
   .project-info-home {
@@ -596,45 +607,56 @@ li {
   .marquee-hr {
     margin-bottom: 7px;
   }
-
 }
-
-
 
 /* for tablets part 1*/
 @media (min-width: 576px) and (max-width: 769px) {
+
+/* GENERAL */
+
+  .introduction {
+    font-size: 14px;
+    line-height: 186%;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto 0 auto;
+  }
+
   body {
-    font-size: 16px;
+    font-size: 1rem;
+    /*16px*/
     line-height: 169%;
     letter-spacing: 0.025em;
-    margin: 30px 40px 0 40px;
+    /* margin: 30px 40px 0 40px; */
   }
 
   .container {
-    width: 100%;
-    padding: 0;
+    width: 100vw;
+    padding: 10px 40px 0 40px;
+    /* padding: 0; */
   }
 
   hr {
-    border-bottom: 2px solid black;
-    height: 1px solid #F9F8F4;
     margin-bottom: 30px;
   }
 
   h2 {
-    font-size: 60px;
+    font-size: 3.75rem;
+    /*60px*/
     line-height: 142%;
     margin: 60px 0 60px 0;
   }
 
   h3 {
-    font-size: 26px;
+    font-size: 1.625rem;
+    /*26px*/
     line-height: 146%;
     margin-bottom: 20px;
   }
 
   h4 {
-    font-size: 20px;
+    font-size: 1.25rem;
+    /*20px*/
     line-height: 150%;
     margin-bottom: 10px;
   }
@@ -645,7 +667,8 @@ li {
   }
 
   .icon-description {
-    font-size: 14px;
+    font-size: 0.875rem;
+    /*14px*/
     opacity: 70%;
   }
 
@@ -654,13 +677,15 @@ li {
   }
 
   .project-heading {
-    font-size: 70px;
+    font-size: 4.375rem;
+    /*70px*/
     line-height: 120%;
     margin-bottom: 20px;
   }
 
   .project-duration {
-    font-size: 28px;
+    font-size: 1.75rem;
+    /*28px*/
     line-height: 150%;
     text-align: left;
     position: relative;
@@ -673,14 +698,14 @@ li {
   }
 
   .project-slogan {
-    font-size: 26px;
+    font-size: 1.625rem;
+    /*26px*/
     line-height: 146%;
     margin-bottom: 20px;
     padding-right: 30px;
   }
 
   .project-description {
-    font-feature-settings: 'liga'off;
     padding-right: 0px;
     margin-bottom: 30px;
   }
@@ -699,7 +724,8 @@ li {
   }
 
   .navbar-brand {
-    font-size: 28px;
+    font-size: 1.75rem;
+    /*28px*/
     line-height: 34px;
     margin-bottom: 20px;
   }
@@ -710,13 +736,15 @@ li {
   }
 
   .introduction {
-    font-size: 30px;
+    font-size: 1.875rem;
+    /*30px*/
     line-height: 153%;
     margin-bottom: 55px;
   }
 
   .marquee {
-    font-size: 12px;
+    font-size: 0.75rem;
+    /*12px*/
     line-height: 18px;
     margin: 10px 0 2px 0;
   }
@@ -730,27 +758,31 @@ li {
   }
 
   .project-type-home {
-    font-size: 14px;
+    font-size: 0.875rem;
+    /*14px*/
     line-height: 166%;
     margin-bottom: 15px;
     /* margin-top: 20px; */
   }
 
   .project-name-home {
-    font-size: 26px;
+    font-size: 1.625rem;
+    /*26px*/
     line-height: 146%;
     margin-bottom: 35px;
   }
 
   .project-link-home {
-    font-size: 18px;
+    font-size: 1.125rem;
+    /*18px*/
     line-height: 150%;
     letter-spacing: 0.015rem;
     margin-bottom: 40px;
   }
 
   .project-description-home {
-    font-size: 14px;
+    font-size: 0.875rem;
+    /*14px*/
     line-height: 169s%;
   }
 
@@ -759,39 +791,38 @@ li {
     width: 100%;
     border-radius: 3px;
   }
-
-
 }
-
 
 /* for tablets part 2 */
 @media (min-width: 769px) and (max-width: 1025px) {
   body {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
+    /*16px*/
     line-height: 169%;
-    margin: 30px 40px 0 40px;
+    /* margin: 30px 40px 0 40px; */
   }
 
   .container {
     width: 100%;
     padding: 0;
+    padding: 10px 40px 0 40px;
   }
 
   hr {
-    border-bottom: 2px solid black;
-    height: 1px solid #F9F8F4;
     margin-bottom: 30px;
   }
 
   h2 {
-    font-size: 60px;
+    font-size: 3.75rem;
+    /*60px*/
     line-height: 142%;
     margin: 60px 0 60px 0;
   }
 
   h3 {
     font-size: 26px;
+    /*26px*/
     line-height: 146%;
     margin-bottom: 20px;
   }
@@ -903,8 +934,6 @@ li {
   }
 }
 
-
-
 /* for small laptops */
 @media (min-width: 1025px) and (max-width: 1281px) {
   body {
@@ -919,13 +948,8 @@ li {
     margin-top: 30px;
     padding: 0;
   }
-
-  hr {
-    border-bottom: 2px solid black;
-    height: 1px solid #F9F8F4;
-    margin-bottom: 50px;
-  }
-
+}
+/*
   h2 {
     font-family: Space Mono;
     font-size: 60px;
@@ -975,7 +999,7 @@ li {
     margin-bottom: 30px;
   }
 
-  /* project classes */
+
   .project-heading {
     font-family: Space Mono, monospace;
     font-size: 85px;
@@ -1025,13 +1049,13 @@ li {
     color: #FF8A00;
   }
 
-  /* carousel */
+
   .carousel {
     text-align: center;
     margin-bottom: 40px;
   }
 
-  /* navbar */
+
   .navbar-brand {
     font-family: Pilowlava;
     font-size: 38px;
@@ -1052,96 +1076,94 @@ li {
     margin-bottom: 55px;
     background-color: #F9F8F4;
   }
+  */
 
+  /* for large laptops */
+  /* @media (min-width: 1281px) {
+    body {
+      font-size: 18px;
+      line-height: 170%;
+      /* margin: 30px 200px 0 200px;
+    }
 
+   .container {
+      width: 1140px;
+      margin-top: 30px;
+      padding: 0;
+    }
 
-/* for large laptops */
-@media (min-width: 1281px) {
-  body {
-    font-size: 18px;
-    line-height: 170%;
-    /* margin: 30px 200px 0 200px; */
-  }
+    .icon-description {
+      font-size: 16px;
+      opacity: 0.7;
+    }
 
-  .container {
-    width: 1140px;
-    margin-top: 30px;
-    padding: 0;
-  }
+    li {
+      margin-bottom: 15px;
+    }
 
-  .icon-description {
-    font-size: 16px;
-    opacity: 0.7;
-  }
+    .mob-view {
+      display: none;
+    }
 
-  li {
-    margin-bottom: 15px;
-  }
+    .img-with-margin {
+      margin-bottom: 40px;
+    }
 
-  .mob-view {
-    display: none;
-  }
+    .pp-validated-img {
+      margin-bottom: 30px;
+    }
 
-  .img-with-margin {
-    margin-bottom: 40px;
-  }
+    /* project classes */
+    /* .project-heading {
+      font-size: 85px;
+      line-height: 110%;
+      margin-bottom: 40px;
+    }
 
-  .pp-validated-img {
-    margin-bottom: 30px;
-  }
+    .project-duration {
+      font-size: 36px;
+      line-height: 53px;
+      text-align: right;
+      position: relative;
+      top: 135px;
+    }
 
-  /* project classes */
-  .project-heading {
-    font-size: 85px;
-    line-height: 110%;
-    margin-bottom: 40px;
-  }
+    .project-block {
+      margin-bottom: 50px;
+    }
 
-  .project-duration {
-    font-size: 36px;
-    line-height: 53px;
-    text-align: right;
-    position: relative;
-    top: 135px;
-  }
+    .project-slogan {
+      margin-bottom: 30px;
+      padding-right: 100px;
+    }
 
-  .project-block {
-    margin-bottom: 50px;
-  }
+    .project-description {
+      font-feature-settings: 'liga'off;
+      padding-right: 100px;
+    }
 
-  .project-slogan {
-    margin-bottom: 30px;
-    padding-right: 100px;
-  }
+    .project-info {
+      line-height: 120%;
+    }
 
-  .project-description {
-    font-feature-settings: 'liga'off;
-    padding-right: 100px;
-  }
+    .project-info-block {
+      margin-bottom: 24px;
+    }
 
-  .project-info {
-    line-height: 120%;
-  }
+    .carousel {
+      margin-bottom: 40px;
+    }
 
-  .project-info-block {
-    margin-bottom: 24px;
-  }
+    .navbar-brand {
+      font-size: 38px;
+      line-height: 46px;
+      margin-bottom: 25px;
+    }
 
-  .carousel {
-    margin-bottom: 40px;
-  }
-
-  .navbar-brand {
-    font-size: 38px;
-    line-height: 46px;
-    margin-bottom: 25px;
-  }
-
-  .nav-item {
-    font-size: 20px;
-    line-height: 28px;
-    margin-bottom: 17px;
-    margin-left: 90px;
-  }
-
-}
+    .nav-item {
+      font-size: 20px;
+      line-height: 28px;
+      margin-bottom: 17px;
+      margin-left: 90px;
+    }
+  } */
