@@ -108,7 +108,7 @@ li {
 .header {
   max-width: 100%;
   height: 100vh;
-  background-color: #5352ED;
+  background-color: #5857F1;
   text-align: center;
   /* border-bottom: 3px solid black; */
 
@@ -116,7 +116,7 @@ li {
 
 .header-img {
   text-align:center;
-width:600px;
+width: 1000px;
 display:block;
 margin:auto;
 position: absolute;
@@ -125,18 +125,28 @@ left: 0;
 right: 0;
 }
 
-.main-heading {
-  font-family: "Space Mono";
-  font-size: 5.625rem;
-  /*90px*/
-  line-height: 111%;
-  letter-spacing: -0.02rem;
-  margin-top: 50px;
-  margin-bottom: 40px;
-  width: 80%;
-  margin-right: auto;
-  margin-left: auto;
+.greeting-home {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  /* identical to box height */
+  color: #f9f8f4;
+  text-align: center;
+  margin-top: 90px;
 }
+
+.main-heading {
+  font-size: 165px;
+  font-family: Work Sans;
+  font-weight: bold;
+  text-align: center;
+  color: #F9F8F4;
+  margin-top: 65px;
+  letter-spacing: -0.01em;
+}
+
 
 .sub-text {
   font-size: 28px;
@@ -196,6 +206,7 @@ right: 0;
   padding-right: 30px;
   border-radius: 100px;
   border: 2px solid #000000;
+  font-weight: 500;
 }
 
 .button-cooking {
@@ -440,15 +451,16 @@ right: 0;
 
     /*for navbar */
 .navbar {
-  padding: 20px 0 0 0;
+  padding: 10px 0 0 0;
   border-bottom: 2px solid black;
   margin-bottom: 55px;
   background-color: #F9F8F4;
 }
 
 .navbar-brand {
-  font-family: Space Mono;
+  font-family: Work Sans;
   font-size: 38px;
+  font-weight: 600;
   line-height: 46px;
   margin-bottom: 25px;
 }
@@ -456,14 +468,15 @@ right: 0;
 .nav-item {
   font-size: 20px;
   line-height: 28px;
-  margin-bottom: 17px;
+  margin-bottom: 5px;
   margin-left: 90px;
 }
 
     /* for homepage */
 .navbar-home {
   margin-bottom: 80px;
-  background-color: #5352ED;
+  border-bottom: 2px solid #ABABF8;
+  background-color: rgba(88, 87, 241, 0);
 }
 
 
@@ -491,13 +504,19 @@ right: 0;
 
 /* FOR MOBILES */
 @media (min-width: 280px) and (max-width: 576px) {
+
+  .greeting-home {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 40px;
+  }
+
   .main-heading {
-    font-size: 2.125rem;
-    /* 34px */
-    line-height: 129%;
-    margin-top: 120px;
-    margin-bottom: 20px;
-    width: 100%;
+    font-size: 90px;
+    line-height: 70px;
+    letter-spacing: -0.01em;
+    margin-top: 0px;
   }
 
   .sub-text {
@@ -514,6 +533,17 @@ right: 0;
 
   .header-img {
     width: 100vw;
+  }
+
+  .header-img-mob {
+    text-align: center;
+    width: 100vw;
+    display: block;
+    margin: auto;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
   }
 
   body {
@@ -609,7 +639,6 @@ right: 0;
   }
 
   .navbar {
-    padding-top: 15px;
     margin-bottom: 40px;
   }
 
@@ -804,7 +833,7 @@ right: 0;
   }
 
   .navbar {
-    padding-top: 15px;
+    /* padding-top: 15px; */
     margin-bottom: 55px;
   }
 
@@ -821,12 +850,11 @@ right: 0;
   }
 
   .main-heading {
-    font-size: 70px;
-    /*70px*/
-    line-height: 129%;
-    margin-top: 200px;
-    margin-bottom: 45px;
-    width: 100%;
+    line-height: 70px;
+/* or 78% */
+font-size: 90px;
+text-align: center;
+letter-spacing: -0.01em;
   }
 
   .sub-text {
