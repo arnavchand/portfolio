@@ -12,6 +12,7 @@
 
   <!-- stylesheet -->
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <!-- fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -20,7 +21,7 @@
 
 </head>
 
-<body>
+<body  onload="setHeaderImage(); setHeaderImageMob();">
 
 
 
@@ -53,8 +54,8 @@
     <div class="container">
       <p class="greeting-home">you've found</p>
       <p class="main-heading">arnav chand</p>
-       <img class="desktop-view header-img" src="images\home\headerimg1.png" alt="">
-       <img class="mob-view header-img-mob" src = "images\home\headerimgmob.png">
+       <img class="desktop-view header-img" src = "images\home\headerimg2.png">
+       <img class="mob-view header-img-mob" src = "images\home\headerimgmob2.png">
      </div>
 
    </div>
@@ -102,7 +103,7 @@
       </div>
 
       <div class="col-lg-7 col-md-7">
-        <img class="project-img-home" src="images\cooking\cover home.png" alt="Cooking Assistant">
+        <img data-aos="fade-up"   data-aos-easing="ease-in-out" data-aos-offset="50" data-aos-delay="0" data-aos-once="true" data-aos-mirror="false" data-aos-duration="1000" class="project-img-home" src="images\cooking\cover home.png" alt="Cooking Assistant">
         <!-- <img class="mob-view" src="images\cooking\cover home mob.png" alt="Cooking Assistant"> -->
       </div>
     </div>
@@ -116,7 +117,7 @@
         <button class="project-button button-foodpanda" type="button" name="button" onclick="window.location.href='foodpanda.html'">View Project</button>
       </div>
       <div class="col-lg-7 col-md-7 project-img-home">
-        <img class="project-img-home" src="images\foodpanda\cover home.png" alt="FoodPanda Community">
+        <img data-aos="fade-up"   data-aos-easing="ease-in-out" data-aos-offset="50" data-aos-delay="0" data-aos-once="true" data-aos-mirror="false" data-aos-duration="1000" class="project-img-home" src="images\foodpanda\cover home.png" alt="FoodPanda Community">
         <!-- <img class="mob-view" src="images\foodpanda\cover home mob.png" alt="Foodpanda Community"> -->
       </div>
     </div>
@@ -130,7 +131,7 @@
         <button class="project-button button-weather" type="button" name="button" onclick="window.location.href='weather.html'">View Project</button>
       </div>
       <div class="col-lg-7 col-md-7">
-        <img class="project-img-home" src="images\weather\cover home.png" alt="Weather App">
+        <img data-aos="fade-up"   data-aos-easing="ease-in-out" data-aos-offset="50" data-aos-delay="0" data-aos-once="true" data-aos-mirror="false" data-aos-duration="1000" class="project-img-home" src="images\weather\cover home.png" alt="Weather App">
         <!-- <img class="mob-view" src="images\weather\cover home mob.png" alt="Weather App"> -->
       </div>
     </div>
@@ -144,7 +145,7 @@
         <button class="project-button button-calendar" type="button" name="button" onclick="window.location.href='calendar.html'">View Project</button>
       </div>
       <div class="col-lg-7 col-md-7">
-        <img class="project-img-home" src="images\calendar\cover home.png" alt="Calendar 2019">
+        <img data-aos="fade-up"   data-aos-easing="ease-in-out" data-aos-offset="50" data-aos-delay="0" data-aos-once="true" data-aos-mirror="false" data-aos-duration="1000" class="project-img-home" src="images\calendar\cover home.png" alt="Calendar 2019">
         <!-- <img class="mob-view" src="images\calendar\cover home mob.png" alt="Calendar 2019"> -->
       </div>
     </div>
@@ -153,12 +154,12 @@
     <div class="row project-block">
       <div class="col-lg-5 col-md-5 project-info-home">
         <p class="project-type-home">Logo Design / Graphic Design</p>
-        <p class="project-name-home">30 Day Logo Challenge</p>
+        <p class="project-name-home">Daily Logo Challenge</p>
         <p style="border-color: #E37400;" class="project-description-home">Made a logo everyday for 30 days in January 2020. An opportunity to hone me logo making skills and to be creative everyday.</p>
         <button class="project-button button-logo" type="button" name="button" onclick="window.location.href='logo.html'">View Project</button>
       </div>
       <div class="col-lg-7 col-md-7">
-        <img class="project-img-home" src="images\logo\cover home.png" alt="Daily Logo Challenge">
+        <img data-aos="fade-up"   data-aos-easing="ease-in-out" data-aos-offset="50" data-aos-delay="0" data-aos-once="true" data-aos-mirror="false" data-aos-duration="1000" class="project-img-home" src="images\logo\cover home.png" alt="Daily Logo Challenge">
         <!-- <img class="mob-view" src="images\logo\cover home mob.png" alt="Daily Logo Challenge"> -->
       </div>
     </div>
@@ -181,7 +182,10 @@
     crossorigin = "anonymous" >
   </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 
 </body>
