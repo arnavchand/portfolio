@@ -42,8 +42,8 @@ body {
   background-color: #F9F8F4;
   font-family: Work Sans;
   font-weight: 400;
-  font-size: 1.125rem;
-  /*18px*/
+  font-size: 1.25rem;
+  /*20px*/
   line-height: 170%;
   letter-spacing: 0.025rem;
   color: black;
@@ -56,7 +56,7 @@ hr {
   border-left: 0px;
   border-right: 0px;
   height: 0.1px solid #F9F8F4;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .hr-dark {
@@ -111,7 +111,8 @@ li {
 .header {
   max-width: 100%;
   height: 100vh;
-  background-color: #3937F9;
+  /* background-color: #3937F9; */
+  background: linear-gradient(180deg, #3937F9 37.5%, #001241 100%);
   text-align: center;
   /* border-bottom: 3px solid black; */
 
@@ -381,7 +382,7 @@ right: 0;
 }
 
 .contact-me {
-  font-family: Space Mono;
+  font-family: Work Sans;
   font-size: 1.875rem;
   /*30px*/
   line-height: 158%;
@@ -670,7 +671,7 @@ right: 0;
     font-size: 18px;
     line-height: 186%;
     width: 100%;
-    margin: 30px 0 30px 0;
+    margin: 50px 0 30px 0;
   }
 
   .project-info-home {
@@ -733,6 +734,16 @@ right: 0;
   .marquee-hr {
     margin-bottom: 15px;
   }
+
+  .contact-me {
+    font-size: 1.25rem;
+    /*20px*/
+    line-height: 160%;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 80px;
+    margin-top: 70px;
+  }
 }
 
 /* for tablets*/
@@ -741,7 +752,7 @@ right: 0;
 /* GENERAL */
 
   .header-img {
-    width: 90vw;
+    width: 680px;
   }
 
   body {
@@ -759,7 +770,7 @@ right: 0;
   }
 
   hr {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
 
   h2 {
@@ -1128,7 +1139,8 @@ letter-spacing: -0.01em;
 /* for small laptops */
 @media (min-width: 1025px) and (max-width: 1281px) {
   body {
-    font-size: 18px;
+    font-size: 1.25rem;
+    /* 20px */
     line-height: 170%;
     letter-spacing: 0.025em;
     /* margin: 30px 70px 0 70px; */
