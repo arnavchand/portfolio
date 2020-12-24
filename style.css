@@ -111,7 +111,7 @@ li {
 .header {
   max-width: 100%;
   min-height: 100vh;
-  min-height: -webkit-fill-available;
+/*   min-height: -webkit-fill-available; */
   /* background-color: #3937F9; */
   background: linear-gradient(180deg, #3937F9 37.5%, #001241 100%);
   text-align: center;
