@@ -48,6 +48,8 @@ body {
   letter-spacing: 0.025rem;
   color: black;
   /* cursor: crosshair; */
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
 }
 
 hr {
