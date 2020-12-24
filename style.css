@@ -42,12 +42,12 @@ body {
   background-color: #F9F8F4;
   font-family: Work Sans;
   font-weight: 400;
-  font-size: 1.25rem;
-  /*20px*/
+  font-size: 1.125rem;
+  /*18px*/
   line-height: 170%;
   letter-spacing: 0.025rem;
   color: black;
-  cursor: crosshair;
+  /* cursor: crosshair; */
 }
 
 hr {
@@ -95,7 +95,7 @@ li {
 }
 
 .container {
-  width: 1140px;
+  width: 1080px;
   padding: 0;
 }
 
@@ -483,8 +483,6 @@ right: 0;
   background-color: rgba(88, 87, 241, 0);
 }
 
-
-
     /* for logo page */
 .logo {
   margin-bottom: 20px;
@@ -501,6 +499,54 @@ right: 0;
 .logo-day {
   color: #737373;
 }
+
+.footer-block {
+  margin: 50px 0 50px 0;
+  font-size: 1.25rem;
+  /* 20px */
+}
+
+.to-the-top-link {
+  text-align: center;
+  padding: 0;
+}
+
+.to-the-top-link :hover {
+  color: grey;
+  text-decoration: underline;
+  text-decoration-color: grey;
+}
+
+.view-archive-link {
+  text-align: center;
+  padding: 0;
+}
+
+.view-archive-link :hover {
+  color: grey;
+  text-decoration: underline;
+  text-decoration-color: grey;
+}
+
+.to-the-top-icon {
+  padding: 0;
+  margin-right: 10px;
+  width: 30px;
+  opacity: 0.8;
+}
+
+.view-archive-icon {
+  padding: 0;
+  margin-right: 10px;
+  width: 30px;
+  opacity: 0.8;
+}
+
+
+
+
+
+
 
 /*_________________________________________________________*/
 /* MEDIA QUERIES */
@@ -743,6 +789,36 @@ right: 0;
     padding: 0;
     margin-bottom: 80px;
     margin-top: 70px;
+  }
+
+  .footer-block {
+    margin: 50px 0 50px 0;
+    font-size: 0.9375rem;
+    /* 15px */
+  }
+
+  .to-the-top-link {
+    text-align: left;
+    padding: 0;
+  }
+
+  .view-archive-link {
+    text-align: right;
+    padding: 0;
+  }
+
+  .to-the-top-icon {
+    padding: 0;
+    margin-bottom: 3px;
+    margin-right: 5px;
+    width: 20px;
+  }
+
+  .view-archive-icon {
+    padding: 0;
+    margin-bottom: 3px;
+    margin-right: 5px;
+    width: 20px;
   }
 }
 
@@ -1131,8 +1207,6 @@ letter-spacing: -0.01em;
     width: 100%;
     border-radius: 3px;
   }
-
-
 
 }
 
