@@ -948,10 +948,10 @@ right: 0;
 
   .main-heading {
     line-height: 70px;
-/* or 78% */
-font-size: 90px;
-text-align: center;
-letter-spacing: -0.01em;
+    /* or 78% */
+    font-size: 90px;
+    text-align: center;
+    letter-spacing: -0.01em;
   }
 
   .sub-text {
@@ -1135,21 +1135,20 @@ letter-spacing: -0.01em;
     margin-bottom: 20px;
   }
 
-
-
-  .main-heading {
-    font-size: 70px;
-    /*70px*/
-    line-height: 129%;
-    margin-top: 200px;
-    margin-bottom: 45px;
-    width: 100%;
+  .greeting-home {
+    font-size: 40px;
+    line-height: 47px;
+    /* identical to box height */
+    margin-top: 140px;
   }
 
-  .sub-text {
-    font-size: 24px;
-    line-height: 32px;
-    margin-bottom: 50px;
+  .main-heading {
+    font-size: 200px;
+    /*70px*/
+    line-height: 85%;
+    margin-top: 60px;
+    margin-bottom: 45px;
+    width: 100%;
   }
 
   .peeping-img{
