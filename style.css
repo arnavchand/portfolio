@@ -111,8 +111,8 @@ li {
 .header {
   max-width: 100%;
   height: 100vh;
-  /* background-color: #3937F9; */
-  background: linear-gradient(180deg, #3937F9 37.5%, #001241 100%);
+  background-color: #3937F9;
+  /* background: linear-gradient(180deg, #3937F9 37.5%, #001241 100%); */
   text-align: center;
   /* border-bottom: 3px solid black; */
 
