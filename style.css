@@ -564,9 +564,10 @@ right: 0;
 
   .main-heading {
     font-size: 90px;
-    line-height: 70px;
+    line-height: 85%;
     letter-spacing: -0.01em;
     margin-top: 0px;
+    text-align: center;
   }
 
   .sub-text {
@@ -833,9 +834,26 @@ right: 0;
 
 /* GENERAL */
 
+
   .header-img {
     width: 100%;
   }
+
+  .greeting-home {
+    font-size: 40px;
+    line-height: 47px;
+    /* identical to box height */
+    margin-top: 30px;
+  }
+
+    .main-heading {
+      font-size: 180px;
+      line-height: 80%;
+      /* or 78% */
+      text-align: center;
+      letter-spacing: -0.01em;
+      margin-top: 40px;
+    }
 
   body {
     font-size: 1rem;
@@ -946,19 +964,6 @@ right: 0;
   }
 
 
-  .main-heading {
-    line-height: 70px;
-    /* or 78% */
-    font-size: 90px;
-    text-align: center;
-    letter-spacing: -0.01em;
-  }
-
-  .sub-text {
-    font-size: 24px;
-    line-height: 32px;
-    margin-bottom: 50px;
-  }
 
   .peeping-img{
     display:none;
