@@ -1027,6 +1027,9 @@ right: 0;
 @media (min-width: 769px) and (max-width: 1025px) {
 
 
+  .header-img {
+    width: 100%;
+  }
 
   body {
     font-size: 1rem;
