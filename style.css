@@ -1026,9 +1026,24 @@ right: 0;
 /* for tablets part 2 */
 @media (min-width: 769px) and (max-width: 1025px) {
 
+  .greeting-home {
+    font-size: 40px;
+    line-height: 47px;
+    /* identical to box height */
+    margin-top: 100px;
+  }
+
+  .main-heading {
+    font-size: 200px;
+    /*70px*/
+    line-height: 85%;
+    margin-top: 60px;
+    margin-bottom: 45px;
+    width: 100%;
+  }
 
   .header-img {
-    width: 80%;
+    width: 75%;
   }
 
   body {
@@ -1138,21 +1153,7 @@ right: 0;
     margin-bottom: 20px;
   }
 
-  .greeting-home {
-    font-size: 40px;
-    line-height: 47px;
-    /* identical to box height */
-    margin-top: 140px;
-  }
 
-  .main-heading {
-    font-size: 200px;
-    /*70px*/
-    line-height: 85%;
-    margin-top: 60px;
-    margin-bottom: 45px;
-    width: 100%;
-  }
 
   .peeping-img{
     display:none;
