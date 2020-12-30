@@ -1039,23 +1039,23 @@ right: 0;
 @media (min-width: 769px) and (max-width: 1025px) {
 
   .greeting-home {
-    font-size: 40px;
-    line-height: 47px;
+    font-size: 32px;
+    /* line-height: 47px; */
     /* identical to box height */
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
   .main-heading {
-    font-size: 200px;
+    font-size: 100px;
     /*70px*/
     line-height: 85%;
-    margin-top: 60px;
+    margin-top: 30px;
     margin-bottom: 45px;
     width: 100%;
   }
 
   .header-img {
-    width: 80%;
+    width: 65%;
   }
 
   body {
