@@ -60,8 +60,12 @@
     <div class="container">
       <p class="greeting-home">you've found</p>
       <p class="main-heading">arnav chand</p>
-      <img class="desktop-view header-img" src="images\home\headerimg2.webp">
-      <img class="mob-view header-img-mob" src="images\home\headerimgmob2.webp">
+      <!-- <img class="desktop-view header-img" src="images\home\headerimg2.webp" onerror="this.onerror=null; this.src='images\home\headerimg2.png'"> -->
+      <picture class="desktop-view header-img">
+        <source srcset="images\home\headerimg2.webp" type="image/webp">
+        <img class="desktop-view header-img" srcset="images\home\headerimg2.png" alt="Header Image">
+      </picture>
+      <img class="mob-view header-img-mob" src="images\home\headerimgmob2.webp" onerror="this.onerror=null; this.src='images\home\headerimgmob2.png'">
     </div>
 
   </div>
@@ -111,7 +115,7 @@
 
       <div class="col-lg-7 col-md-7">
         <img data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-offset="50" data-aos-delay="0" data-aos-once="true" data-aos-mirror="false" data-aos-duration="1000" class="project-img-home" src="images\cooking\cover home.webp"
-          alt="Cooking Assistant">
+          alt="Cooking Assistant" onerror="this.onerror=null; this.src='images\cooking\cover home.png'">
         <!-- <img class="mob-view" src="images\cooking\cover home mob.png" alt="Cooking Assistant"> -->
       </div>
     </div>
